@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    /* background-color:lightgray; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAlGsuDfL1ukEasPDV7ChJMXrnDxR1_bBtR7dijIHAcQ&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    gap: 50px;
+
+    p {
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.695);
+        padding: 10px;
+    }
+
+}
+
+.mix {
+    font-size: 60px;
+    /* color: navy; */
+    background: linear-gradient(orange, rgb(169, 114, 114), green);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    box-shadow: 0, 0, 30px gray;
+
+    img {
+
+        width: 5%;
+        /* padding-top: 0px ; */
+        /* margin-top: 20px; */
+    }
+
+
+}
+
+/* .st{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+#addbtn {
+    margin-top: 20px;
+    padding: 20px 30px;
+    border-radius: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    /* background: linear-gradient(red, rgb(169, 114, 114), green); */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+
+    text-transform: uppercase;
+    /* border:black; */
+
+}
+
+#colourbox {
+    /* padding: 40px 50px; */
+    height: 380px;
+    width: 580px;
+    text-align: center;
+    /* background-color: brown; */
+    border: 5px solid rgb(41, 23, 23);
+    margin: 30px auto;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .mix {
+        font-size: 45px;
+
+        img {
+
+            width: 5%;
+            /* padding-top: 0px ; */
+            /* margin-top: 20px; */
+        }
+    }
+
+    body {
+        p {
+            font-size: 20px;
+        }
+    }
+
+    #colourbox {
+        height: 380px;
+        width: 380px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .mix {
+
+        font-size: 45px;
+
+        img {
+
+            width: 6%;
+            /* padding-top: 0px ; */
+            /* margin-top: 20px; */
+        }
+
+    }
+
+    #colourbox {
+        height: 280px;
+        width: 380px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .mix {
+
+        font-size: 40px;
+
+        img {
+
+            width: 7%;
+        }
+
+    }
+
+    #colourbox {
+        height: 280px;
+        width: 280px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .mix {
+
+        font-size: 40px;
+
+        img {
+
+            width: 10%;
+
+        }
+    }
+}
